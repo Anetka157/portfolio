@@ -20,7 +20,7 @@ export const About = () => {
                 <div className="max-w-3xl mx-auto px-4">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center">
                         {" "}
-                        O mně
+                        O mně,
                     </h2>
 
                     <div className="rounded-xl p-8 border-black/30 border">
