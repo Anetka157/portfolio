@@ -27,16 +27,7 @@ export const Projects = () => {
                             <p className="text-gray-600 mb-4">
                                 Fotografka zachytila náš svatební den nádherným způsobem! Skvěle se přizpůsobila našim přáním a přidala svůj kreativní náhled. Výsledné fotografie jsou úžasné.
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["like", "dislike"].map((tech, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
-                                    >
-                                    {tech}
-                                    </span>
-                                ))}
-                            </div>
+                            
 
                         </div>
                         <div className="p-6 rounded-xl transition flex flex-col items-center justify-center"
@@ -53,15 +44,7 @@ export const Projects = () => {
                                 Rodinné focení bylo skvělé! Fotografka vytvořila příjemnou atmosféru, díky které jsme se
                                 cítili přirozeně. Jsme nadšení a určitě se k ní vrátíme!
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["like", "dislike"].map((tech, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm transition hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
-                                    {tech}
-                                    </span>
-                                ))}
-                            </div>
+                            
                         </div>
 
                         <div
@@ -79,17 +62,7 @@ export const Projects = () => {
                                 výsledné snímky zachytily moji přirozenou krásu a osobnost. Jsem nadšená a doporučuji
                                 všem, kdo hledají skvélé portréty!
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["like", "dislike"].map(
-                                    (tech) => (
-                                        <span
-                                            key={tech}
-                                            className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm transition hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
-                                        {tech}
-                                        </span>
-                                    )
-                                )}
-                            </div>
+                            
                         </div>
 
                         <div
@@ -106,15 +79,7 @@ export const Projects = () => {
                                 Kromě portrétů, svateb atd. se zaměřuji i na volnočasové focení, kde zachycuji přírodu,
                                 městské scenérie, i obyčejné předměty a snažím se hledat nové styly upravování fotek.
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["like", "dislike"].map((tech, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm transition hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
-                                    {tech}
-                                    </span>
-                                ))}
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
